@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restoran:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>restoran</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="restoran-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="restoran:war exploded" />
+    </root>
+  </artifact>
+</component>
